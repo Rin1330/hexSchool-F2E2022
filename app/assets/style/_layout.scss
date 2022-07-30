@@ -58,5 +58,13 @@ section {
         font-size: 1.5rem;
         line-height: 1.5;
     }
+    a{
+        color: $light;
+        text-decoration: none;
+        transition: all .3s ease 0s;
+        &:hover {
+            color: #891818;
+        }
+    }
 }
 
