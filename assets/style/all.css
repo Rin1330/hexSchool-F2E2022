@@ -424,6 +424,14 @@ section {
   .footer li {
     font-size: 1.5rem;
     line-height: 1.5; }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s; }
+    .footer a:hover {
+      color: #891818; }
 
 html, body {
   font-family: 'Roboto', sans-serif;
