@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import './reset';
+@import './variable';
+@import './utilities';
+@import './layout';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about{
+  ul{
+    &.dot {
+      max-width: 342px;
+    }
+  }
+}
+
+.brand {
+  h3 {
+    line-height: 1.75;
+  }
+  ul {
+    margin-bottom: 104px;
+  }
+  li {
+    line-height: 0;
+  }
+}
+
+.works {
+  .cardName {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 2.1;
+    padding: 1rem 0.5rem;
+  }
+}
