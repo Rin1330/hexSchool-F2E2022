@@ -79,7 +79,6 @@ ul li {
   font-weight: 700; }
 
 ul.dot li {
-  display: inline-block;
   position: relative;
   padding-left: 38px; }
   ul.dot li:after {
@@ -491,6 +490,7 @@ section {
   padding: 4rem 0;
   color: #ffffff; }
   .footer li {
+    display: block;
     font-size: 1.5rem;
     line-height: 1.5; }
   .footer a {
@@ -522,7 +522,7 @@ html, body {
 
 .brand ul {
   margin-bottom: 84px;
-  gap: 20px 24px; }
+  gap: 40px 24px; }
 
 .brand li {
   line-height: 0; }
