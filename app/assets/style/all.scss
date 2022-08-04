@@ -17,6 +17,9 @@ html, body {
 }
 
 .about{
+  h3 {
+    border-bottom: 1px solid $dark;
+  }
   ul{
     &.dot {
       max-width: 342px;
@@ -29,7 +32,8 @@ html, body {
     line-height: 1.75;
   }
   ul {
-    margin-bottom: 104px;
+    margin-bottom: 84px;
+    gap: 20px 24px;
   }
   li {
     line-height: 0;
@@ -42,5 +46,8 @@ html, body {
     font-size: 1.25rem;
     line-height: 2.1;
     padding: 1rem 0.5rem;
+  }
+  ul{
+    gap: 32px 24px;
   }
 }

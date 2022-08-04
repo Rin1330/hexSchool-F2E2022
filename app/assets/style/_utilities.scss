@@ -27,12 +27,14 @@ h3 {
 
 ul {
     li {
+        display: inline-block;
         font-size: 1.5rem;
         line-height: 1.75;
         font-weight: 700;
     }
     &.dot {
         li {
+            display: inline-block;
             position: relative;
             padding-left: 38px;
             &:after {
@@ -74,11 +76,19 @@ hr {
     align-items: center;
 }
 
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
 .text-center {
     text-align: center;
 }
 
 @for $i from 0 through 20 {
+    .mt-#{$i}{
+        margin-top: $base-size * $i;
+    }
+
     .mb-#{$i}{
         margin-bottom: $base-size * $i;
     }
@@ -88,11 +98,11 @@ hr {
     }
 
     .pt-#{$i}{
-        margin-right: $base-size * $i;
+        padding-top: $base-size * $i;
     }
 
     .pb-#{$i}{
-        margin-right: $base-size * $i;
+        padding-bottom: $base-size * $i;
     }
 
 }
