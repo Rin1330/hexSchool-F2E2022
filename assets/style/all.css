@@ -79,6 +79,7 @@ ul li {
   font-weight: 700; }
 
 ul.dot li {
+  display: inline-block;
   position: relative;
   padding-left: 38px; }
   ul.dot li:after {
