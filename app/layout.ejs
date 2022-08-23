@@ -5,37 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <title>
+    <%- title %>
+  </title>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header d-flex justify-content-center align-items-center">
-    <div class="headerContent">
-      <p class="mb-0">Here’s</p>
-      <h1 class="mb-8">JOANNE</h1>
-      <p class="lh-sm mb-10">Founder of “XXXD Official’’ <br>& Graphic Designer</p>
-      <ul class="d-flex justify-content-center">
-        <li><a class="behance" href="#"><span>Behance</span></a></li>
-        <li><a class="facebook" href="#"><span>Facebook</span></a></li>
-        <li><a class="instagram" href="#"><span>Instagram</span></a></li>
-        <li><a class="youtube" href="#"><span>Youtube</span></a></li>
+  <div id="wraper">
+    <header class="header d-flex justify-content-center align-items-center" data-aos="fade-in" data-aos-delay="1000">
+      <div class="headerContent">
+        <p class="mb-0">Here’s</p>
+        <h1 class="mb-8">JOANNE</h1>
+        <p class="lh-sm mb-10">Founder of “XXXD Official’’ <br>& Graphic Designer</p>
+        <ul class="d-flex justify-content-center">
+          <li data-aos="fade-left" data-aos-delay="1700"><a class="behance" href="#"><span>Behance</span></a></li>
+          <li data-aos="fade-left" data-aos-delay="1900"><a class="facebook" href="#"><span>Facebook</span></a></li>
+          <li data-aos="fade-left" data-aos-delay="2100"><a class="instagram" href="#"><span>Instagram</span></a></li>
+          <li data-aos="fade-left" data-aos-delay="2300"><a class="youtube" href="#"><span>Youtube</span></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <%- contents %>
+    </main>
+
+    <footer class="footer bg-dark text-center">
+      <h2 class="mb-4">Contact</h2>
+      <ul>
+        <li class="mb-4">Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
+        <li class="mb-0">Phone Number：<a href="tel:0910123456">0910123456</a></li>
       </ul>
-    </div>
-  </header>
-
-  <main>
-  <%- contents %>
-  </main>
-
-  <footer class="footer bg-dark text-center">
-    <h2 class="mb-4">Contact</h2>
-    <ul>
-      <li class="mb-4">Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
-      <li class="mb-0">Phone Number：<a href="tel:0910123456">0910123456</a></li>
-    </ul>
-  </footer>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
